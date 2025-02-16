@@ -1,0 +1,35 @@
+{
+  "name": "@maheshpaul/serverless-pdf-generator",
+  "version": "0.1.2",
+  "description": "A PDF generator for serverless environments",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "nextjs",
+    "pdf",
+    "generator",
+    "puppeteer",
+    "serverless"
+  ],
+  "author": "Mahesh Paul",
+  "license": "MIT",
+  "dependencies": {
+    "@sparticuz/chromium-min": "131.0.1",
+    "puppeteer-core": "23.10.4",
+    "puppeteer": "23.10.4"
+  },
+  "peerDependencies": {
+    "next": ">=13.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
