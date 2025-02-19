@@ -5,7 +5,7 @@
 ## Features
 
 - 📄 Convert any URL to a PDF easily.
-- 🚀 Optimized for serverless environments (Vercel, AWS Lambda, etc.).
+- 🚀 Optimized for serverless environments (Vercel, AWS Lambda, etc).
 - ⚡ Supports Puppeteer and Chromium-min for minimal dependencies.
 - 🎯 Customizable PDF output (format, margins, background printing, etc.).
 
